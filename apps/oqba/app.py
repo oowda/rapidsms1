@@ -9,8 +9,7 @@ class App(rapidsms.app.App):
        def handle(self, message):
 		
                 if not message.text.startswith('oqba'):
-                    message.respond(u" bad command must begin with oqba ")
-                    return True
+                    return False
 
                 message.respond(u" hello maaaaaaan ")
                 return True

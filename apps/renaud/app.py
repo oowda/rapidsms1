@@ -31,8 +31,19 @@ class App(rapidsms.app.App):
         return False
 
     keyword.prefix = ['renaud']
-    @keyword(r'(\w+)')
-    def renaud(self, message, text):
-        message.respond(u"Hello %s. Thank you" % text)
-        return True
-
+    @keyword(r'(\w+) ([y|n])')
+    def renaud(self, message, text, exist):
+        if exist == 'y':
+        	message.respond(u"Hello %s. exist" % text)
+	else:
+		message.respond(u"Hello %s. does not exist" % text)
+	return True
+    
+    keyword.prefix = ['product']
+    @keyword(r'([0-9]+) ([0-9]+)')
+    def product(self,message, num , num1 ):
+    	    	
+    	result = int(num) * int(num1)
+    	message.respond(u"the product is %s. " % result)
+    	return True
+    	
