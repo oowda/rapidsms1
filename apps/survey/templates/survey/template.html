@@ -1,0 +1,33 @@
+{% extends base_template %}
+{% block content %}
+<head>
+
+</head>
+
+<body>
+
+<h1> Survey result </h3>
+
+
+<h2>Summery </h2>
+
+<table border="1">
+<tr> <td  bgcolor="#009900"> Cretiria  </td><td bgcolor="#009900"> %  </td></tr>
+<tr> <td> Males  </td> <td> {{malerecords }}</td></tr>
+<tr> <td> Females  </td> <td> {{femalerecords }}</td></tr>
+<tr> <td> Students  </td> <td> {{strerecords }}</td></tr>
+<tr> <td>Professionals  </td> <td> {{profrerecords }}</td></tr>
+
+</table>
+
+<h2>Profile</h2> 
+
+<table border="1">
+{% for profile in allrecords %}
+<tr> <td><a href = "{% url profile profile.id %}" > {{profile.name}} </a></td></tr>
+{% endfor %}
+</table>
+
+
+</body>
+{% endblock %}

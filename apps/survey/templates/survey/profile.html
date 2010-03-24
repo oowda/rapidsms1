@@ -1,0 +1,25 @@
+{% extends base_template %}
+{% block content %}
+<head>
+
+</head>
+
+<body>
+
+<h1> Profile</h3>
+
+
+<h2>Summery </h2> 
+
+<table border="1">
+
+<tr> <td> First name   </td> <td> {{profile.firsName }}</td></tr>
+<tr> <td> Last name   </td> <td> {{profile.lastName }}</td></tr>
+<tr> <td> Gender   </td> <td> {{profile.sex }}</td></tr>
+<tr> <td> Age  </td> <td> {{profile.age }}</td></tr>
+
+
+</table>
+
+</body>
+{% endblock %}
