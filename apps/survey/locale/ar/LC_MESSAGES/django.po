@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-24 19:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: app.py:23
+msgid "Unrecognised message"
+msgstr ""
+
+#: app.py:28
+#, python-format
+msgid "System encountered an Error: %s"
+msgstr ""
+
+#: app.py:39
+msgid "help"
+msgstr "مساعدة"
+
+#: app.py:43
+msgid ""
+"Enter the word 'survey' follwed by: firstName lastName gender(M:male,F:"
+"female) age activity(1:student, 2:professional) - To serch for enter St for "
+"student search or Prof for professionals "
+msgstr ""
+"ادخل كلمة 'survey' متبوعة ب : الاسم الاول الاسم الاخير الجنس المهنة - للبحث "
+"ادخل كلمة search ST للطلاب او search prof للعاملين"
+
+#: app.py:66
+#, python-format
+msgid "Thank you %s. for your openion "
+msgstr "شكرا لك %s. لمشاركتنا رأيك"
+
+#: app.py:68
+msgid "Faild to insert"
+msgstr "حدث خطأ اثناء ادخال البيانات"
+
+#: models.py:11
+msgid "Occupation code"
+msgstr "رمز المهنة "
+
+#: models.py:12
+msgid "Occupation name"
+msgstr "اسم المهنة "
+
+#: models.py:19
+msgid "Person first name"
+msgstr "الاسم الاول للشخص"
+
+#: models.py:20
+msgid "Person last name"
+msgstr "الاسم الاخير"
+
+#: models.py:25
+msgid "person gender"
+msgstr "الجنس"
+
+#: models.py:26
+msgid "person age"
+msgstr "عمر الشخص"
+
+#: models.py:27
+msgid "Occupation st,developer "
+msgstr "المهنة طالب موظف"
